@@ -202,25 +202,25 @@ for i in range(9):
 	print(f"  {t} sec")
 	util.write_data(directory, 'Random', X)
 
-	Because GreedyMIOA and AdvancedGreedy take a long time to execute, we recommend that these computations be performed separately for large graphs.
-	-> compute_AdvancedGreedy_only.py, compute_GreedyMIOA_only.py
+	# Because GreedyMIOA and AdvancedGreedy take a long time to execute, we recommend that these computations be performed separately for large graphs.
+	# -> compute_AdvancedGreedy_only.py, compute_GreedyMIOA_only.py
 
-	print('computing intervening nodes by GreedyMIOA')
-	start_time = time.time()
-	X = mtd.GreedyMIOA(new_graph, source, new_q, new_epsilon, kmax, theta)
-	end_time = time.time()
-	t = np.round(end_time - start_time, 2)
-	print(f"  {t} sec")
-	util.write_data(directory, 'GreedyMIOA', X)
+	# print('computing intervening nodes by GreedyMIOA')
+	# start_time = time.time()
+	# X = mtd.GreedyMIOA(new_graph, source, new_q, new_epsilon, kmax, theta)
+	# end_time = time.time()
+	# t = np.round(end_time - start_time, 2)
+	# print(f"  {t} sec")
+	# util.write_data(directory, 'GreedyMIOA', X)
 
-	print('computing intervening nodes by AdvancedGreedy')
-	start_time = time.time()
-	num_samples = 100
-	X = mtd.AdvancedGreedy(new_graph, source, kmax, num_samples)
-	end_time = time.time()
-	t = np.round(end_time - start_time, 2)
-	print(f"  {t} sec")
-	util.write_data(directory, 'AdvancedGreedy', X)
+	# print('computing intervening nodes by AdvancedGreedy')
+	# start_time = time.time()
+	# num_samples = 100
+	# X = mtd.AdvancedGreedy(new_graph, source, kmax, num_samples)
+	# end_time = time.time()
+	# t = np.round(end_time - start_time, 2)
+	# print(f"  {t} sec")
+	# util.write_data(directory, 'AdvancedGreedy', X)
 
 	### simulation ###
 	print('conducting simulation')
