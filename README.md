@@ -14,8 +14,8 @@ python main.py cond_name
 ```
 Note: 'cond_name' can be either `random`, `follower`, or `proximity`.
 
-`main.py` computes the intervention target for our proposed algorithm and the comparison algorithm under the conditions specified by 'cond_name'.
-Note that, since GreedyMIOA and AdvancedGreedy take a long time to execute, we recommend that you calculate them individually using `compute_AdvancedGreedy_only.py` and `compute_GreedyMIOA_only.py`.
+`main.py` computes the intervention target for our proposed algorithms and comparison algorithms under the conditions specified by 'cond_name'.
+Note that, since GreedyMIOA and AdvancedGreedy take a long time to execute, we recommend that you compute them individually using `compute_AdvancedGreedy_only.py` and `compute_GreedyMIOA_only.py`.
 
 After that, run a simulation in which intervention is performed on the $k$ nodes selected by each algorithm, and calculate the proportion of negative opinions.
 
