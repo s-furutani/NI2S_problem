@@ -2,7 +2,7 @@
 
 Code for reproducing our paper "Suppressing the Endogenous Negative Influence Through Node Intervention in Social Networks."
 
----
+## To run
 
 To run the code, first type the following in your terminal:
 ```
@@ -22,6 +22,7 @@ After that, run a simulation in which intervention is performed on the $k$ nodes
 The list of intervention targets and simulation results are saved in the `./results/graph_name/cond_name` directory.
 
 ---
+## Citation
 
 If you use this code, please cite the following paper:
 ```
