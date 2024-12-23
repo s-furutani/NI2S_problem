@@ -20,3 +20,10 @@ Note that, since GreedyMIOA and AdvancedGreedy take a long time to execute, we r
 After that, run a simulation in which intervention is performed on the $k$ nodes selected by each algorithm, and calculate the proportion of negative opinions.
 
 The list of intervention targets and simulation results are saved in the `./results/graph_name/cond_name` directory.
+
+---
+
+If you use this dataset/code, please cite the following papers:
+```
+TBA
+```
