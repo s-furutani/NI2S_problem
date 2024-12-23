@@ -23,7 +23,7 @@ The list of intervention targets and simulation results are saved in the `./resu
 
 ---
 
-If you use this dataset/code, please cite the following papers:
+If you use this code, please cite the following paper:
 ```
 TBA
 ```
