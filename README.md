@@ -10,9 +10,9 @@ pip install -r requirements.txt
 ```
 then
 ```
-python main.py cond_name
+python main.py <cond_name>
 ```
-Note: 'cond_name' can be either `random`, `follower`, or `proximity`.
+Note: <cond_name> can be either `random`, `follower`, or `proximity`.
 
 `main.py` computes the intervention target for our proposed algorithms and comparison algorithms under the conditions specified by 'cond_name'.
 Note that, since GreedyMIOA and AdvancedGreedy take a long time to execute, we recommend that you compute them individually using `compute_AdvancedGreedy_only.py` and `compute_GreedyMIOA_only.py`.
