@@ -26,5 +26,5 @@ The list of intervention targets and simulation results are saved in the `./resu
 
 If you use this code, please cite the following paper:
 ```
-TBA
+S. Furutani, T. Aoshima, T. Shibahara, M. Akiyama and M. Aida, "Suppressing the Endogenous Negative Influence Through Node Intervention in Social Networks," in IEEE Access, vol. 13, pp. 9290-9302, 2025, doi: 10.1109/ACCESS.2024.3523036.
 ```
